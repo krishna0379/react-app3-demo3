@@ -20,6 +20,10 @@ function App() {
         <Route path="/page3">
           <Page3></Page3>
         </Route>
+
+        <Route path="/">
+          <Page1></Page1>
+        </Route>
       </Switch>
     </Router>
   );
